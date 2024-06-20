@@ -7,4 +7,4 @@ $contraseña = $_GET['contraseña'];
 $foto = $_GET['foto'];
  
 include("usuario.php");
-Usuarios::registrar($documento,$nombre,$fec_nac,$contraseña,$foto);
+echo(Usuarios::registrar($documento,$nombre,$fec_nac,$contraseña,$foto));

@@ -9,7 +9,7 @@ class Usuarios{
         if ($consulta){
             header("location: v_consultar_usuarios.php");
         } else{
-            echo "error al registrarse";
+            return "error al registrarse";
         }
     }
 

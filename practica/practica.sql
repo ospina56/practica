@@ -1,0 +1,14 @@
+show databases;
+create schema pruebis;
+use pruebis;
+
+create table tb_usuarios(
+documento int not null,
+nombre varchar(100) not null,
+fec_nac date not null,
+contraseña varchar(100) not null,
+foto varchar(100) null,
+primary key(documento)
+);
+
+select * from tb_usuarios;
